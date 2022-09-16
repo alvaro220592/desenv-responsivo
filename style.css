@@ -1,0 +1,60 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.div1 {
+  float: left;
+  background-color: dodgerblue;
+  width: 20%;
+  height: 80%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.div2 {
+  float: left;
+  background-color: darkcyan;
+  width: 20%;
+  height: 80%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.div3 {
+  float: left;
+  background-color: darkorange;
+  width: 20%;
+  height: 80%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.div4 {
+  float: left;
+  background-color: deeppink;
+  width: 20%;
+  height: 80%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  .div1, .div2, .div3, .div4 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 801px) {
+  .div1, .div2, .div3, .div4 {
+    width: 45vw;
+    height: 90vh;
+  }
+}
+
+@media (min-width: 802px) {
+    .div1, .div2, .div3, .div4 {
+        height: 90vh;
+    }
+}
